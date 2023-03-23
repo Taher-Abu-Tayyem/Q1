@@ -1,0 +1,46 @@
+body{
+    background-color: #c5c5c5;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+
+}
+.card {
+    background-color: #ffffff;
+    width: 250px;    
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 12px;
+    height: 300px;
+    border-top:solid #8132a3 10px;
+  }
+   .card img{
+    margin-top: 20px;
+    width: 55%;
+    border-radius: 50%;
+  } 
+  label{
+    display: block;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: sold 1px;
+    border-color: #eeeeee;
+    width: 84%;
+    height: 17px;
+    font-size: 14px;
+  }
+  .Card-Label{
+    margin: 6px 19px;
+  }
+  .Card-items{
+    width: 200px;
+  }
+  
+ 
+  
