@@ -1,7 +1,8 @@
-body{
+
+.body{
     background-color: #c5c5c5;
     color: #000000;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans';
 
 }
 .card {
@@ -13,19 +14,15 @@ body{
     border-radius: 12px;
     height: 300px;
     border-top:solid #8132a3 10px;
+    box-shadow: 1px 3px 19px 1px rgba(0,0,0,0.75);
   }
    .card img{
     margin-top: 20px;
     width: 55%;
     border-radius: 50%;
   } 
-  label{
-    display: block;
-    text-align: left;
-    font-size: 12px;
-  }
-
-  input{
+  
+  .card-input{
     border-top: none;
     border-right: none;
     border-left: none;
@@ -33,14 +30,22 @@ body{
     border-color: #eeeeee;
     width: 84%;
     height: 17px;
-    font-size: 14px;
+    font-weight: 13px;
+    padding-bottom: 5px;
   }
-  .Card-Label{
+  .card-input.phone{
+    border-bottom:   0px;
+  }
+  .class-label{
     margin: 6px 19px;
   }
-  .Card-items{
+  .card-items{
     width: 200px;
   }
-  
+  .card-label{
+    display: block;
+    text-align: left;
+    font-weight: 20px;
+  }
  
   
